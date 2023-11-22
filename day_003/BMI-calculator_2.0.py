@@ -5,7 +5,7 @@ BMI = int(weight / (float(height) ** 2))
 if BMI < 18.5:
     value = "Underweight"
 elif BMI >= 18.5 and BMI <25:
-    value = "Normal"
+    value = "Normal weight"
 elif BMI >= 25 and BMI < 30:
     value = "Overweight"
 elif BMI < 35:
@@ -13,4 +13,4 @@ elif BMI < 35:
 else:
     value = "Clinically Obese"
 print(f"Your Body Mass Index is {BMI}")
-print(f"According to World Health Organization, your BMI is {value}")
+print(f"According to World Health Organization, you are {value}")
