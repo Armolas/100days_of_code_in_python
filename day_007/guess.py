@@ -1,6 +1,6 @@
 import random
 import hangman_art as art
-words = ["ardvark", "baboon", "camel", "octopus", "narwhal", "porcupine"]
+from hangman_words import word_list as words
 lives = 7
 word = random.choice(words)
 word_list = []
